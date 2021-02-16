@@ -41,6 +41,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB4B3EE025DC466800FC88AD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CBF72FC124B6506800115F93 /* CreateMemeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CB4B3EE225DC471E00FC88AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CBF72FD324B7828700115F93 /* Meme.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CB4B3EE325DC472B00FC88AD /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				CBF72FD124B7770200115F93 /* Extensions.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CB4B3EE425DC473700FC88AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CBF72FC324B6506800115F93 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CBF72FB124B6506800115F93 = {
 			isa = PBXGroup;
 			children = (
@@ -60,15 +92,15 @@
 		CBF72FBC24B6506800115F93 /* MemeMe-v1.0 */ = {
 			isa = PBXGroup;
 			children = (
+				CB4B3EE425DC473700FC88AD /* Views */,
+				CB4B3EE325DC472B00FC88AD /* Utilities */,
+				CB4B3EE225DC471E00FC88AD /* Model */,
+				CB4B3EE025DC466800FC88AD /* Controllers */,
 				CBF72FBD24B6506800115F93 /* AppDelegate.swift */,
 				CBF72FBF24B6506800115F93 /* SceneDelegate.swift */,
-				CBF72FC124B6506800115F93 /* CreateMemeVC.swift */,
-				CBF72FC324B6506800115F93 /* Main.storyboard */,
 				CBF72FC624B6506A00115F93 /* Assets.xcassets */,
 				CBF72FC824B6506A00115F93 /* LaunchScreen.storyboard */,
 				CBF72FCB24B6506A00115F93 /* Info.plist */,
-				CBF72FD124B7770200115F93 /* Extensions.swift */,
-				CBF72FD324B7828700115F93 /* Meme.swift */,
 			);
 			path = "MemeMe-v1.0";
 			sourceTree = "<group>";
